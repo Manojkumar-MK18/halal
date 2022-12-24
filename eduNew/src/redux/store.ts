@@ -11,10 +11,9 @@ import fmsReducer from './fms/reducer'
 import teacherAssignmentReducer from './teacherAssignment/reducer'
 import learnReducer from './learn/reducers'
 import StudentReducer from './student/reducer'
-import TeacherLeaveReducer from './teacherLeave/reducers'
-import TestReducer from './test/reducers'
+import TeacherLeaveReducer from './teacherLeave/reducers' 
 
-const reducer = {
+const reducer = { 
   user: userReducer,
   menu: menuReducer,
   course: courseReducer,
@@ -27,8 +26,7 @@ const reducer = {
   teacherAssignment: teacherAssignmentReducer,
   learn: learnReducer,
   student: StudentReducer,
-  teacherLeave: TeacherLeaveReducer,
-  test: TestReducer
+  teacherLeave: TeacherLeaveReducer, 
 }
 
 const initialState = {}
